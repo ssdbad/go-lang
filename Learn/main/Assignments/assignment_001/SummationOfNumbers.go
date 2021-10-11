@@ -11,6 +11,8 @@ func main() {
 	listOfNumbers := list.New()
 	listOfNumbers.PushFront(5)
 	listOfNumbers.PushBack(4)
+	listOfNumbers.PushFront(10)
+	listOfNumbers.PushBack(15)
 	var sum = 0
 	for i := listOfNumbers.Front(); i != nil; i = i.Next() {
 		fmt.Print(i.Value, ",")
